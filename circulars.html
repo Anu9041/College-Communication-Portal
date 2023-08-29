@@ -1,0 +1,1462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>College Student Communication</title>
+  <link href="assets/img/logo2.jpg" rel="icon">
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <!-- <link href="assets/img/favicon.png" rel="icon"> -->
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: NiceAdmin - v2.4.1
+  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.php" class="logo d-flex align-items-center">
+
+        <span class="d-none d-lg-block">Student portal</span>
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+    <div class="search-bar">
+      <form class="search-form d-flex align-items-center" method="POST" action="#">
+        <input type="text" name="query" placeholder="Search" title="Enter search keyword">
+        <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+      </form>
+    </div><!-- End Search Bar -->
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        <li class="nav-item d-block d-lg-none">
+          <a class="nav-link nav-icon search-bar-toggle " href="#">
+            <i class="bi bi-search"></i>
+          </a>
+        </li><!-- End Search Icon-->
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-bell"></i>
+            <span class="badge bg-primary badge-number">4</span>
+          </a><!-- End Notification Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
+            <li class="dropdown-header">
+              You have 4 new notifications
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-exclamation-circle text-warning"></i>
+              <div>
+                <h4>Lorem Ipsum</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>30 min. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-x-circle text-danger"></i>
+              <div>
+                <h4>Atque rerum nesciunt</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>1 hr. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-check-circle text-success"></i>
+              <div>
+                <h4>Sit rerum fuga</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>2 hrs. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-info-circle text-primary"></i>
+              <div>
+                <h4>Dicta reprehenderit</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>4 hrs. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li class="dropdown-footer">
+              <a href="#">Show all notifications</a>
+            </li>
+
+          </ul><!-- End Notification Dropdown Items -->
+
+        </li><!-- End Notification Nav -->
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-chat-left-text"></i>
+            <span class="badge bg-success badge-number">3</span>
+          </a><!-- End Messages Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
+            <li class="dropdown-header">
+              You have 3 new messages
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-1.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>Maria Hudson</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>4 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-2.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>Anna Nelson</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>6 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-3.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>David Muldon</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>8 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="dropdown-footer">
+              <a href="#">Show all messages</a>
+            </li>
+
+          </ul><!-- End Messages Dropdown Items -->
+
+        </li><!-- End Messages Nav -->
+
+        <li class="nav-item dropdown pe-3">
+
+          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+            <img src="assets/img/messages-3.jpg" alt="Profile" class="rounded-circle">
+            <span class="d-none d-md-block dropdown-toggle ps-2">Kevin</span>
+          </a><!-- End Profile Iamge Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+            <li class="dropdown-header">
+              <h6>Kevin </h6>
+              <span>Web Designer</span>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-person"></i>
+                <span>My Profile</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-gear"></i>
+                <span>Account Settings</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
+                <i class="bi bi-question-circle"></i>
+                <span>Need Help?</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sign Out</span>
+              </a>
+            </li>
+
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="index.php">
+          <i class="bi bi-grid"></i>
+          <span>Dashboard</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="student info.html">
+          <i class="bi bi-person-circle"></i>
+          <span>Student information</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="faculty info.html">
+          <i class="bi bi-people-fill"></i>
+          <span>Faculty information</span>
+        </a>
+      </li>
+      <!-- <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="forms-elements.html">
+              <i class="bi bi-circle"></i><span>Form Elements</span>
+            </a>
+          </li>
+          <li>
+            <a href="forms-layouts.html">
+              <i class="bi bi-circle"></i><span>Form Layouts</span>
+            </a>
+          </li>
+          <li>
+            <a href="forms-editors.html">
+              <i class="bi bi-circle"></i><span>Form Editors</span>
+            </a>
+          </li>
+          <li>
+            <a href="forms-validation.html">
+              <i class="bi bi-circle"></i><span>Form Validation</span>
+            </a>
+          </li>
+        </ul>
+      </li> End Forms Nav -->
+
+       
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="scholarships.html">
+          <i class="bi bi-book"></i>
+          <span>Scholarships</span>
+        </a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link " data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-bar-chart"></i><span>Campus</span>
+          <i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="charts-nav" class="nav-content collapse show" data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="life at campus.html">
+              <i class="bi bi-circle"></i><span>Life at Campus</span>
+            </a>
+          </li>
+          <li>
+            <a href="infrastructure.html">
+              <i class="bi bi-circle"></i><span>Infrastructure</span>
+            </a>
+          </li>
+          <li>
+            <a href="library service.html">
+              <i class="bi bi-circle"></i><span>Library Service</span>
+            </a>
+          </li>
+          <li>
+            <a href="student activity center.html">
+              <i class="bi bi-circle"></i><span>Student Activity Center</span>
+            </a>
+          </li>
+
+        </ul>
+      </li>
+
+      <!-- <li class="nav-heading">Pages</li> -->
+      <li class="nav-item"> <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse"href="#">
+        <i class="bi bi-journal-text"></i><span>Student Corner</span><i class="bi bi-chevron-down ms-auto"></i> </a>
+       <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+         <li> <a href="circulars.html"> <i class="bi bi-circle"></i><span>Circulars</span> </a></li>
+         <li> <a href="exam section.html"> <i class="bi bi-circle"></i><span>Exam Section</span> </a></li>
+         
+       </ul>
+     </li>
+       <li class="nav-item">
+        <a class="nav-link collapsed" href="users-profile.html">
+          <i class="bi bi-person"></i>
+          <span>Profile</span>
+        </a>
+        </li><!-- End Profile Page Nav -->
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="pages-faq.html">
+            <i class="bi bi-question-circle"></i>
+            <span>F.A.Q</span>
+          </a>
+        </li><!-- End F.A.Q Page Nav -->
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="pages-contact.html">
+            <i class="bi bi-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </li>
+
+
+
+
+    </ul>
+
+  </aside>
+  <main id="main" class="main">
+
+    <div class="pagetitle">
+      <h1>Circulars</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+          <li class="breadcrumb-item">Dashboard</li>
+          
+        </ol>
+      </nav>
+    </div><!-- End Page Title -->
+    <div
+      style="width:100%;padding-left:0px;margin-bottom:15px;margin-top:15px;position:relative;height:2px;background:-webkit-linear-gradient(left, rgba(77, 74,154, 5.18) 0%, rgba(77, 74,154, 0.63) 35%, rgba(77, 74,154, 0.05) 70%, rgba(0, 0, 0, 0) 100%);">
+    </div>
+    
+    <section
+      style="background-image: url(/Content/media/bg/bg_1.jpg); background-position: center center; background-repeat: no-repeat; background-size: cover; height: -30px;">
+      <section class="bg-blue page-banner pt-5 pb-5">
+        <div class="container text-left ">
+          <div class="row align-items-center">
+            <div class="col-md-12 ">
+              <h1 class="balance-text" style="font-size: 30px;margin-top: -40px;">Circulars</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="banner bg-white pt-0 pb-0 left-aside">
+        <div class="container" style="margin-top: -30px; ">
+          <div class="banner-product flex-wrap row position-relative">
+            <div class="col-md-3" style="margin-top: 40px;">
+
+
+
+
+
+
+              <div class="product-list pb-0 mb-0" id="product-static1">
+                <!-- <h1>Student Portal</h1>
+                        <h3><a href="http:\\student.gtu.ac.in" class="btn btn-sm  btn-red mb-0">Login Now</a></h3> -->
+                <div class="small-border"></div>
+              </div>
+
+              <div class="product-list" id="product-static" style="padding:0px 10px">
+                <h1 style="font-size: 20px; ">News Corner</h1>
+
+                <h3  style="font-size: 20px; margin-top: 50px;">Exam Schedule, Guidelines & Circulars</h3>
+
+                <div class="small-border"></div>
+
+
+                <a href="News.aspx"  style="font-size: 13px; margin-top: 80px;">VIEW ALL</a>
+
+                <!-- <h1 style="margin-top:50px;">New Horizons</h1><a id="RSideHorizon-prev" ><img onmouseover="this.src='img/up_black.png'"
+onmouseout="this.src='img/up.png'" src="img/up.png" style="height:10%;width:10%"/></a><a id="RSideHorizon-next" ><img src="img/down.png" onmouseover="this.src='img/down_black.png'"
+onmouseout="this.src='img/down.png'" style="height:10%;width:10%"/></a>                       -->
+
+                <!-- <div class="small-border"></div>
+                        <div class ="horizon-outer">  
+                         
+                             </div>
+                         <a  href="New-Horizons.aspx">VIEW ALL</a> -->
+
+              </div>
+
+
+            </div>
+            <div class="col-md-9">
+              <div class="page-content">
+                <div class="small-border"></div>
+                <div class="tab-page">
+
+                  <div id="button-container" style="margin-top: 40px;">
+                    <a class="btn" href="javascript:void(0)" target=""><button class="pillbtn pillbtn-left btn-active"
+                        type="button" id="btn-corner">Circular</button></a>
+                    <a class="btn" href="javascript:void(0)" target=""><button class="pillbtn pillbtn-right"
+                        type="button" id="btn-circular">Important Circular</button></a>
+                  </div>
+                  <span id="ContentPlaceHolder1_l1"></span>
+                  
+                  <div class="container-fluid">
+                    <div class="row" style="margin-top: 40px;">
+                      <div class="col-12">
+                        <div class="student-corner" id="student-corner">
+                          <div>
+                            <select name="ctl00$ContentPlaceHolder1$drpYear"onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$drpYear\&#39;,\&#39;\&#39;)&#39;, 0)"
+                              id="ContentPlaceHolder1_drpYear" class="bi bi-chevron-down ms-auto" style="width: 50%;">
+                              
+                              <option selected="selected" value="2022">2022</option>
+                              <option value="2021">2021</option>
+                              <option value="2020">2020</option>
+                              <option value="2019">2019</option>
+                              <option value="2018">2018</option>
+                              <option value="2017">2017</option>
+                              <option value="2016">2016</option>
+                              <option value="2015">2015</option>
+                              <option value="2014">2014</option>
+                              <option value="2013">2013</option>
+                              <option value="2012">2012</option>
+                              <option value="2011">2011</option>
+                              <option value="2010">2010</option>
+                              <option value="2009">2009</option>
+                              <option value="2008">2008</option>
+
+                            </select>
+                            <select name="ctl00$ContentPlaceHolder1$drpMonth"onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$drpMonth\&#39;,\&#39;\&#39;)&#39;, 0)"
+                              id="ContentPlaceHolder1_drpMonth" class="bi bi-chevron-down ms-auto" style="width: 50%; margin-top: 30px;">
+                              <option selected="selected" value="0">-- Select Month --</option>
+                              <option value="1">January</option>
+                              <option value="2">February</option>
+                              <option value="3">March</option>
+                              <option value="4">April</option>
+                              <option value="5">May</option>
+                              <option value="6">June</option>
+                              <option value="7">July</option>
+                              <option value="8">August</option>
+                              <option value="9">September</option>
+                              <option value="10">October</option>
+                              <option value="11">November</option>
+                              <option value="12">December</option>
+
+                            </select>
+                          </div>
+
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1" style="margin-top: 50px; font-size:20px; ">
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_0"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/IMG_20221111_0002_131206.pdf'
+                                        target='_blank'>INSTRUCTIONS FOR FILLING THE EXAM FORMS OF WINTER-2022
+                                        EXAMINATION B.PHARM SEM -4 [REMEDIAL STUDENTS]</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_0">11-Nov-2022</p>
+                                
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_1"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Circular _ MB3PT5_262422.pdf'
+                                        target='_blank'>Specialization and Elective Subject's entry for MBA
+                                        Sem-3(regular) and MBA Part Time Sem-5(Regular) for the Winter-2022
+                                        examination.</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_1">11-Nov-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px;; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_2"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Diploma sem-5 and 7, DA-3 and 5, DV-3 and 5  (Regular) Exam form Winter 2022 (accept-Reject)_967731.pdf'
+                                        target='_blank'>INSTRUCTIONS TO ACCEPT/ REJECT EXAM FORMS OF WINTER 2022
+                                        EXAMINATIONDIPLOMA ENGINEERING (DE) SEM- 5 and 7 (Regular/ Term Extension
+                                        Regular Students), DIPLOMA ARCHITECTURE (DA) SEM- 3 and 5 (Regular/TermExtension
+                                        Regular Students),DIPLOMA VOCATION (DV) SEM- 5 (Regular/Term Extension Regular
+                                        Students)</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_2">10-Nov-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_3"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Regular sem-3_322004.pdf'
+                                        target='_blank'>INSTRUCTIONS FOR FILLING THE EXAM FORMS OF MCA INTEGRATED SEM-3
+                                        [REGULAR], MBA INTEGRATED SEM-3 [REGULAR] AND M.SC. INTEGRATED (COMPUTER
+                                        SCIENCE) SEM-3 [REGULAR] FOR WINTER-2022 EXAMINATION</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_3">10-Nov-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_4"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Remedial_1_386902.pdf'
+                                        target='_blank'>INSTRUCTIONS FOR FILLING THE EXAM FORMS OF MCA INTEGRATED SEM-1
+                                        TO 4 [REMEDIAL], MBA INTEGRATED SEM-1 TO 4 [REMEDIAL] AND M.SC INTEGRATED
+                                        (COMPUTER SCIENCE) SEM-1 & 2 [REMEDIAL] WINTER-2022 EXAMINATION</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_4">10-Nov-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_5"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/MCA_SEM_5_563630.pdf'
+                                        target='_blank'>INSTRUCTIONS FOR FILLING THE EXAM FORMS OF MCA SEM-5 [REGULAR/
+                                        TERM EXTENSION REGULAR] FOR WINTER-2022 EXAMINATION</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_5">10-Nov-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px;" >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_6"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/IMG_20221110_0003_837949.pdf'
+                                        target='_blank'>INSTRUCTIONS FOR FILLING THE EXAM FORMS OF WINTER-2022
+                                        EXAMINATION B.PHARM SEM -5 [REGULAR STUDENTS]</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_6">10-Nov-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_7"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/sem 4 rem exam form win22_248081.pdf'
+                                        target='_blank'>Instructions Regarding filling the Remedial Exam Forms of B.E
+                                        (Sem-4 (Remedial)), BE (Part-Time)/PDDC (Sem-4 (Remedial)), B.Voc (Sem-4
+                                        (Remedial)), B.Arch (Sem-4 (Remedial)), BHMCT (Sem-4 (Remedial)) and BID (Sem-4
+                                        (Remedial)) Winter-2022 Examination</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_7">10-Nov-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_8"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Mp2-Rem-TE-EF-W22_814716.pdf'
+                                        target='_blank'>INSTRUCTION FOR FILLING THE REMEDIAL EXAM FORMS OF WINTER-2022
+                                        EXAMINATION M.PHARM SEM-2 [REMEDIAL/LESS50/TERM EXTENSION STUDENTS]</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_8">10-Nov-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_9"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Sem-2 Rem exam form Summer-2022_363166.pdf'
+                                        target='_blank'>Instructions for filling the Exam Forms of WINTER-2022 Master of
+                                        Engineering (ME) SEM-2 (Remedial / Term Extension Remedial Students)</a>
+                                      </br>
+
+                                      Student link :&nbsp;</span><a target="_blank"
+                                        href="https://student.gtu.ac.in/Login.aspx">https://student.gtu.ac.in/<wbr>Login.aspx</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_9">07-Nov-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_10"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Answerbook viewing Summer-2022_754728.pdf'
+                                        target='_blank'>Online Answer Book Viewing of M.E. semester 1,2 & 3 Summer 2022
+                                        Examination.</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_10">07-Nov-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px;" >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_11"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/NCC_Elective Course._662074.pdf'
+                                        target='_blank'>Revised circular : NCC offered as an elective course.</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_11">05-Nov-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_12"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/IMG_20221104_0002_441439.pdf'
+                                        target='_blank'>INSTRUCTIONS FOR FILLING THE EXAM FORMS OF WINTER-2022
+                                        EXAMINATION B.PHARM SEM -5 & 6 [REMEDIAL STUDENTS]</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_12">04-Nov-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_13"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/TA-DA  Exam Hono.circular- 01-11-2022 - Shortcut_858228.pdf'
+                                        target='_blank'>TA / DA, Exam Remuneration and Honorarium circular</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_13">03-Nov-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px;" >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_14"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/OTHER_REM_5TO10_REM_EXAMFORM_WIN22_898188.pdf'
+                                        target='_blank'>Instructions for filling the Remedial/Term Extension Remedial
+                                        Exam Forms of BE (Part-Time)/PDDC (Sem-5 to 7), B.Voc (Sem-5), B.Arch (Sem-5 to
+                                        9), BHMCT(Sem-5 to 7) and BID (Sem-5 to 8) Winter-2022 Examination</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_14">21-Oct-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_15"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Circular_893058.pdf'
+                                        target='_blank'>Circular - UFM hearing of student SUMMER-2022 Phase-II</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_15">20-Oct-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_16"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/other_reg_5 to 10_examform win22_circular_815965.pdf'
+                                        target='_blank'>Instructions for filling the Regular/Term Extension Regular Exam
+                                        Forms of BE (Part-Time)/PDDC (Sem-5 & 7), B.Voc (Sem-5), B.Arch (Sem-5, 7 & 9),
+                                        BHMCT(Sem-5 & 7) and BID (Sem-5 & 7) Winter-2022 Examination</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_16">20-Oct-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_17"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/20221020143121_reg_EF_161865.pdf'
+                                        target='_blank'>INSTRUCTIONS FOR FILLING THE EXAM FORMS OF MCA SEM-3
+                                        [REGULAR/TERM EXTENSION REGULAR] ,MCA INTEGRATED SEM- 5, 7 & 9 [REGULAR] , MBA
+                                        INTEGRATED SEM- 5, 7, & 9 [REGULAR] WINTER-2022 EXAMINATION</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_17">20-Oct-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px;" >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_18"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/ME Sem-3&4 Exam form Winter-2022_930888.pdf'
+                                        target='_blank'>Instructions for filling the Exam Forms of WINTER-2022 Master of
+                                        Engineering (ME) SEM-3 & 4 (Regular /Remedial / Term Extension Regular &
+                                        Remedial Students)</a>
+
+                                      </br>
+
+                                      Student link :&nbsp;<a target="_blank"
+                                        href="https://student.gtu.ac.in/Login.aspx">https://student.gtu.ac.in/<wbr>Login.aspx</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_18">18-Oct-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_19"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/20221017163134_793979.pdf'
+                                        target='_blank'>Online Answer book Viewing of B.E semesterS 5,6,7 & 8,PDDC
+                                        semester 7 & 8, BVOC semesters 4,5,6 Summer 2022 Examination.</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_19">17-Oct-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_20"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/File2_691846.pdf'
+                                        target='_blank'>Instructions for filling the Exam Forms of Winter-2022 BACHELOR
+                                        OF ENGINEERING (BE) Sem – 5 to 7 (Remedial/Term Extension Remedial Students)</a>
+                                      </br>
+
+
+                                      Student link :&nbsp;</span><a target="_blank"
+                                        href="https://student.gtu.ac.in/Login.aspx">https://student.gtu.ac.in/<wbr>Login.aspx</a>
+                                      </p></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_20">17-Oct-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_21"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/File1_427647.pdf'
+                                        target='_blank'>Instructions for filling the Exam Forms of Winter-2022 BACHELOR
+                                        OF ENGINEERING (BE) Sem – 5 & 7 (Regular/Term Extension Regular Students)</a>
+                                      </br>
+
+                                      Student link :&nbsp;</span><a target="_blank"
+                                        href="https://student.gtu.ac.in/Login.aspx">https://student.gtu.ac.in/<wbr>Login.aspx</a>
+                                      </p></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_21">17-Oct-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_22"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/20221017143138_rem_EF_549602.pdf'
+                                        target='_blank'>INSTRUCTIONS FOR FILLING THE EXAM FORMS OF MCA - SEM 1 TO 6
+                                        [REMEDIAL & TERM EXTENSION REMEDIAL] AND MCA INTEGRATED SEM - 5 TO 10
+                                        [REMEDIAL], MBA INTEGRATED SEM - 5 TO 10 [REMEDIAL] WINTER 2022 EXAMINATION
+                                      </a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_22">17-Oct-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_23"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Diploma sem-5 and 7, DA-3 and 5, DV-3 and 5  (Regular) Exam form Winter 2022_242268.pdf'
+                                        target='_blank'>CIRCULAR INSTRUCTIONS FOR FILLING THE EXAM FORMS OF WINTER 2022,
+                                        DIPLOMA ENGINEERING (DE) SEM- 5 and 7 (Regular/ Term Extension Regular
+                                        Students), DIPLOMA ARCHITECTURE (DA) SEM- 3 and 5 (Regular/Term Extension
+                                        Regular Students),DIPLOMA VOCATION (DV) SEM-3 and 5 (Regular/Term Extension
+                                        Regular Students)</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_23">14-Oct-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_24"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/title change_617089.pdf'
+                                        target='_blank'>Instruction Regarding Change in Dissertation Title/Guide Name of
+                                        M. Pharm Sem III & IV (Regular/Remedial) (Winter-2022)</a>
+                                      </br>
+                                      <a href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/ANNEXURE 1_162442.docx'
+                                        target='_blank'>ANNEXURE 1</a>
+
+                                      </br>
+
+                                      <a href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Annexure-2_895358.pdf'
+                                        target='_blank'>ANNEXURE 2</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_24">14-Oct-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_25"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/IMG_20221014_0003_772703.pdf'
+                                        target='_blank'>ELECTIVE SUBJECT'S ENTRY FOR B. PHARM SEMESTER-5 REGULAR (WINTER
+                                        - 2022)</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_25">14-Oct-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_26"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Circular - Two days hands on Training in Manufacturing Sciences (7657)(Idea Lab)_699109.pdf'
+                                        target='_blank'>Two days hands-on Training in Manufacturing sciences on 14th
+                                        -15th OCT 2022 under GTU IDEALAB</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_26">11-Oct-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_27"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Registration of Title for ME Dissertation Phase-1 (DP-I)(Winter-2022)_754344.pdf'
+                                        target='_blank'>Registration of Title for ME Dissertation Phase-1
+                                        (DP-I)(Winter-2022)</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_27">11-Oct-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_28"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/20221007165534_elective_fc_737299.pdf'
+                                        target='_blank'>Specialization & Elective Subject Entry of MBA Integrated
+                                        Semesters 7 & 9 (Regular) for Winter 2022 Examination</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_28">07-Oct-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_30"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/CIRCULAR_ELECTIVE SUBJECT ENTRY_195964.pdf'
+                                        target='_blank'>ELECTIVE SUBJECTS’ ENTRY FOR MCA SEM-3 (REGULAR) AND MCA
+                                        INTEGRATED SEM-7 & 9 (REGULAR) FOR WINTER 2022 EXAMINATION</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_30">06-Oct-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_31"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Regarding reforms & MoM AC _7551_04-10-2022_568491.pdf'
+                                        target='_blank'>No Exception for Personality Development Elective CPDP/IPDC for
+                                        Diploma to Degree Students .</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_31">04-Oct-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_32"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Circular_506780.pdf'
+                                        target='_blank'>નેશનલ ગેમ્સ - ૨૦૨૨ સ્વયંસેવકો માટે મધ્ય સત્રની પરીક્ષા યોજવા
+                                        માટે વૈકલ્પિક વ્યવસ્થા કરવા બાબત</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_32">03-Oct-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_33"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/DI sem-3 Remedial exam form circular winter 2022_620162.pdf'
+                                        target='_blank'>Instructions for filling the Remedial Exam Forms of Winter -2022
+                                        Examination, DIPLOMA ENGINEERING (DE) SEM-3</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_33">03-Oct-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_34"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/all_elective_win22_ext_325317.pdf'
+                                        target='_blank'>Extension in Dates Regarding Elective Subject Entry For BE,
+                                        B.Arch, B.Voc and PDDC/BE(Part-Time) (Regular Students) Winter-2022
+                                        Examination</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_34">29-Sep-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_35"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Updated NBA Institute List_0001_866976.pdf'
+                                        target='_blank'>GTU Affiliated Institutes List with NBA Accreditation till
+                                        31/08/2022 </a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_35">28-Sep-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_36"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/INSTRUCTION FOR FILLING THE REMEDIAL EXAM FORMS OF WINTER.2022 EXAMINATION_102666.PDF'
+                                        target='_blank'>INSTRUCTION FOR FILLING THE REMEDIAL EXAM FORMS OF WINTER-2022
+                                        EXAMINATION M.PHARM SEM - 3 & 4 [REMEDIAL/LESS50/TERM EXTENSION
+                                        STUDENTS]</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_36">26-Sep-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_37"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Circular0046_575666.PDF'
+                                        target='_blank'>INSTRUCTIONS FOR FILLING THE EXAM FORMS OF WINTER-2022
+                                        EXAMINATION B.PHARM SEM -7 & 8 [REMEDIAL STUDENTS]</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_37">26-Sep-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_38"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/પરિપત્ર_996816.PDF'
+                                        target='_blank'>Circular regarding GTU, Chandkheda, Administrative Office is
+                                        closed on 27-09-2022 (Tuesday)</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_38">26-Sep-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_39"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/20220924150638_658302.pdf'
+                                        target='_blank'>GUIDELINES AND INSTRUCTIONS REGARDING MID (M), INTERNAL (I) AND
+                                        VIVA (V) MARKS ENTRY FOR M.SC INTEGRATED (COMPUTER SCIENCE) SEM-1 & 2
+                                        SUMMER-2022 EXAMINATION</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_39">24-Sep-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_40"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/DI sem-4 to 8, DV sem-3 to 6, DA sem-1 to 6 Remedial exam form circular winter 2022_893657.pdf'
+                                        target='_blank'>INSTRUCTIONS FOR FILLING THE REMEDIAL EXAM FORMS OF WINTER -2022
+                                        EXAMINATION ,DIPLOMA ENGINEERING (DE) SEM-4 to 8, DIPLOMA VOCATION (DV) SEM-3 to
+                                        6, DIPLOMA ARCHITECTURE (DA) SEM-1 to 6</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_40">23-Sep-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_42"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/img20220921_16225665_779872.pdf'
+                                        target='_blank'>Practical Exam/Viva pattern of Integrated M.Sc. IT and
+                                        Integrated M.Sc. Computer Science programs</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_42">21-Sep-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_44"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Circular0041_906503.PDF'
+                                        target='_blank'>INSTRUCTIONS FOR FILLING THE EXAM FORMS OF WINTER-2022
+                                        EXAMINATION B.PHARM SEM -7 [REGULAR STUDENTS]</a></a>
+                                  </h3>
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_44">21-Sep-2022</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_45"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Report_437914.pdf'
+                                        target='_blank'>Report - IEP 2022</a></a>
+                                  
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_45"  style="font-size: 15px;">21-Sep-2022</p>
+                                </h3>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="most-popular-post">
+                            <div class="row align-items-center">
+
+                              <div class="col-lg-12 col-sm-12">
+                                <div class="post-content">
+
+                                  <span class="ti-arrow-circle-right"></span>
+                                  <h3 class="border border-1"  style="margin-top: 30px; font-size:20px; " >
+                                    <a href="#" id="ContentPlaceHolder1_lvCircular_lblContentHeading_46"><a
+                                        href='https://s3-ap-southeast-1.amazonaws.com/gtusitecirculars/uploads/Pharmacy_Circular_125241.pdf'
+                                        target='_blank'>Amendment in the academic calendar for Pharmacy
+                                        Institutes.</a></a>
+                                  
+                                  <p id="ContentPlaceHolder1_lvCircular_lblUploadDate_46" style="font-size: 15px;">21-Sep-2022</p>
+                                </h3>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          
+                          <nav aria-label="...">
+                            <ul class="pagination">
+                              <li>
+                                <span id="ContentPlaceHolder1_dpCircular"><a
+                                    class="aspNetDisabled">Previous</a>&nbsp;<span>1</span>&nbsp;<a
+                                    href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$dpCircular$ctl01$ctl01&#39;,&#39;&#39;)">2</a>&nbsp;<a
+                                    href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$dpCircular$ctl01$ctl02&#39;,&#39;&#39;)">3</a>&nbsp;<a
+                                    href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$dpCircular$ctl01$ctl03&#39;,&#39;&#39;)">4</a>&nbsp;<a
+                                    href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$dpCircular$ctl01$ctl04&#39;,&#39;&#39;)">5</a>&nbsp;&nbsp;<a
+                                    href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$dpCircular$ctl01$ctl05&#39;,&#39;&#39;)">...</a>&nbsp;<a
+                                    href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$dpCircular$ctl02$ctl00&#39;,&#39;&#39;)">Next</a>&nbsp;</span>
+                              </li>
+                            </ul>
+                          </nav>
+                        </div>
+
+      
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  </main><!-- End #main -->
+
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.min.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

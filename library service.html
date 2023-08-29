@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>College Student Communication</title>
+  <link href="assets/img/logo2.jpg" rel="icon">
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: NiceAdmin - v2.4.1
+  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.php" class="logo d-flex align-items-center">
+
+        <span class="d-none d-lg-block">Student portal</span>
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+    <div class="search-bar">
+      <form class="search-form d-flex align-items-center" method="POST" action="#">
+        <input type="text" name="query" placeholder="Search" title="Enter search keyword">
+        <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+      </form>
+    </div><!-- End Search Bar -->
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        <li class="nav-item d-block d-lg-none">
+          <a class="nav-link nav-icon search-bar-toggle " href="#">
+            <i class="bi bi-search"></i>
+          </a>
+        </li><!-- End Search Icon-->
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-bell"></i>
+            <span class="badge bg-primary badge-number">4</span>
+          </a><!-- End Notification Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
+            <li class="dropdown-header">
+              You have 4 new notifications
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-exclamation-circle text-warning"></i>
+              <div>
+                <h4>Lorem Ipsum</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>30 min. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-x-circle text-danger"></i>
+              <div>
+                <h4>Atque rerum nesciunt</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>1 hr. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-check-circle text-success"></i>
+              <div>
+                <h4>Sit rerum fuga</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>2 hrs. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-info-circle text-primary"></i>
+              <div>
+                <h4>Dicta reprehenderit</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>4 hrs. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li class="dropdown-footer">
+              <a href="#">Show all notifications</a>
+            </li>
+
+          </ul><!-- End Notification Dropdown Items -->
+
+        </li><!-- End Notification Nav -->
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-chat-left-text"></i>
+            <span class="badge bg-success badge-number">3</span>
+          </a><!-- End Messages Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
+            <li class="dropdown-header">
+              You have 3 new messages
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-1.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>Maria Hudson</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>4 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-2.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>Anna Nelson</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>6 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-3.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>David Muldon</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>8 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="dropdown-footer">
+              <a href="#">Show all messages</a>
+            </li>
+
+          </ul><!-- End Messages Dropdown Items -->
+
+        </li><!-- End Messages Nav -->
+
+        <li class="nav-item dropdown pe-3">
+
+          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+            <img src="assets/img/messages-3.jpg" alt="Profile" class="rounded-circle">
+            <span class="d-none d-md-block dropdown-toggle ps-2">Kevin</span>
+          </a><!-- End Profile Iamge Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+            <li class="dropdown-header">
+              <h6>Kevin </h6>
+              <span>Web Designer</span>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-person"></i>
+                <span>My Profile</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-gear"></i>
+                <span>Account Settings</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
+                <i class="bi bi-question-circle"></i>
+                <span>Need Help?</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sign Out</span>
+              </a>
+            </li>
+
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="index.php">
+          <i class="bi bi-grid"></i>
+          <span>Dashboard</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="./chatroom/login.php">
+          <i class="bi bi-person-circle"></i>
+          <span>Students Communities</span>
+        </a>
+      </li>
+
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="faculty info.html">
+          <i class="bi bi-people-fill"></i>
+          <span>Faculty information</span>
+        </a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="scholarships.html">
+          <i class="bi bi-book"></i>
+          <span>Scholarships</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link " data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-bar-chart"></i><span>Campus</span>
+          <i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="charts-nav" class="nav-content collapse show" data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="life at campus.html">
+              <i class="bi bi-circle"></i><span>Life at Campus</span>
+            </a>
+          </li>
+          <li>
+            <a href="infrastructure.html">
+              <i class="bi bi-circle"></i><span>Infrastructure</span>
+            </a>
+          </li>
+          <li>
+            <a href="library service.html">
+              <i class="bi bi-circle"></i><span>Library Service</span>
+            </a>
+          </li>
+          <li>
+            <a href="student activity center.html">
+              <i class="bi bi-circle"></i><span>Student Activity Center</span>
+            </a>
+          </li>
+
+        </ul>
+      </li>
+
+      
+      <li class="nav-item"> <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse"href="#">
+        <i class="bi bi-journal-text"></i><span>Student Corner</span><i class="bi bi-chevron-down ms-auto"></i> </a>
+       <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+         <li> <a href="circulars.html"> <i class="bi bi-circle"></i><span>Circulars</span> </a></li>
+         <li> <a href="exam section.html"> <i class="bi bi-circle"></i><span>Exam Section</span> </a></li>
+         
+       </ul>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link collapsed" href="users-profile.html">
+        <i class="bi bi-person"></i>
+        <span>Profile</span>
+      </a>
+      </li>
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="pages-faq.html">
+            <i class="bi bi-question-circle"></i>
+            <span>F.A.Q</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="pages-contact.html">
+            <i class="bi bi-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </li>
+
+
+
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+  <main id="main" class="main">
+
+    <div class="pagetitle">
+      <h1>Library</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+          <li class="breadcrumb-item">Dashboard</li>
+          
+        </ol>
+      </nav>
+    </div><!-- End Page Title -->
+    <div
+      style="width:100%;padding-left:0px;margin-bottom:15px;margin-top:15px;position:relative;height:1px;background:-webkit-linear-gradient(left, rgba(77, 74,154, 5.18) 0%, rgba(77, 74,154, 0.63) 35%, rgba(77, 74,154, 0.05) 70%, rgba(0, 0, 0, 0) 100%);">
+    </div>
+
+    <section
+      style="background-image: url(/Content/media/bg/bg_1.jpg); background-position: center center; background-repeat: no-repeat; background-size: cover; height: 30px;">
+    </section>
+    <div class="container-du-content g-mb-60" style="margin-top: -50px;">
+      <div style="padding: 0 15px;">
+        <div class="row">
+          <div class="col-lg-6 g-py-20--lg g-px-40--lg g-py-20 g-px-30 g-bg-primary g-color-white g-rounded-15">
+            
+            <p class="g-color-white g-font-weight-200 text-center text-lg-left g-mb-5">
+
+
+
+            </p>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div
+            class="col-lg-6 g-py-8--lg g-py-5 text-center text-lg-left g-brd-bottom g-brd-gray-light-v4 g-rounded-15">
+            <ul class="u-list-inline">
+
+              <li class="list-inline-item g-mr-7">
+                <a class="u-link-v5 g-color-main g-color-primary--hover  g-font-size-14" href="/"
+                  title="Darshan University, Rajkot"><i class="fa fa-home"></i></a>
+                <i class="fa fa-angle-right g-ml-7"></i>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="min-height: 300px;">
+      <div class="g-mb-30">
+        <section>
+          <div class="container-du-content g-ml-10">
+            <div class="row">
+              <div class="col-lg-12 g-mb-20">
+                <div class="u-heading-v3-1 du">
+                  <h2 class="u-heading-v3__title du">
+                    Library
+                  </h2>
+                </div>
+                
+                <div class="row" style="margin-top: 50px;">
+                  <div class="col-lg-6" >
+                    <div id="carousel-08-1" class="js-carousel text-center g-mb-20" data-infinite="true"
+                      data-arrows-classes="u-arrow-v1 g-absolute-centered--y g-width-35 g-height-40 g-font-size-18 g-color-gray g-bg-white g-mt-minus-10"
+                      data-arrow-left-classes="fa fa-angle-left g-left-0"
+                      data-arrow-right-classes="fa fa-angle-right g-right-0" data-nav-for="#carousel-08-2">
+                      <div class="js-slide">
+                        <a class="js-fancybox d-block g-pos-rel" href="javascript:;"
+                          data-fancybox="lightbox-gallery--08-1" data-src="/U01/Page/59---11-06-2021-10-09-57.jpg"
+                          data-caption="Lightbox Gallery" data-animate-in="bounceInDown"
+                          data-animate-out="bounceOutDown" data-speed="1000" data-overlay-blur-bg="true">
+                          <img class="img-fluid w-100" src="assets/img/20.jpg" alt="Image Description">
+                        </a>
+                      </div>
+
+                      <div class="js-slide">
+                        <a class="js-fancybox d-block g-pos-rel" href="javascript:;"
+                          data-fancybox="lightbox-gallery--08-1" data-src="/U01/Page/59---11-06-2021-10-10-02.jpg"
+                          data-caption="Lightbox Gallery" data-animate-in="bounceInDown"
+                          data-animate-out="bounceOutDown" data-speed="1000" data-overlay-blur-bg="true">
+                          <img class="img-fluid w-100" src="assets/img/22.jpg" alt="Image Description">
+                        </a>
+                      </div>
+
+                      <div class="js-slide">
+                        <a class="js-fancybox d-block g-pos-rel" href="javascript:;"
+                          data-fancybox="lightbox-gallery--08-1" data-src="/U01/Page/59---11-06-2021-10-10-07.jpg"
+                          data-caption="Lightbox Gallery" data-animate-in="bounceInDown"
+                          data-animate-out="bounceOutDown" data-speed="1000" data-overlay-blur-bg="true">
+                          <img class="img-fluid w-100" src="assets/img/23.jpg" alt="Image Description">
+                        </a>
+                      </div>
+
+                      <div class="js-slide">
+                        <a class="js-fancybox d-block g-pos-rel" href="javascript:;"
+                          data-fancybox="lightbox-gallery--08-1" data-src="/U01/Page/59---11-06-2021-10-10-11.jpg"
+                          data-caption="Lightbox Gallery" data-animate-in="bounceInDown"
+                          data-animate-out="bounceOutDown" data-speed="1000" data-overlay-blur-bg="true">
+                          <img class="img-fluid w-100" src="assets/img/21.jpg" alt="Image Description">
+                        </a>
+                      </div>
+                    </div>
+
+
+                  </div>
+
+
+                  <div class="col-lg-6">
+                    <p class="text-justify"><b>T</b>he Central Library of Darshan University is user-focused,
+                      innovative, and excellence-driven. The Central Library spreads over to the first and second floors
+                      with an area of 1735 sq.m. It is centrally air-conditioned with a well-furnished library and CCTV
+                      surveillance. It has specialized collections of Books, Journals & other resources in Engineering
+                      and Technology, ranging from printed books, e-books, back volumes, CD\DVDs and Kindle e-readers,
+                      etc. The Library implemented <b>D-Lib</b> software (Library Software), which supports all
+                      housekeeping operations of the library. There is a separate digital library having 24 computers
+                      running on the high-speed internet. The library system and staff are meticulously focused on
+                      providing a comfortable, user-friendly environment to enables learning and knowledge creation.</p>
+                    <p class="text-justify">Also, the library has a membership of the <b>National Digital Library</b>
+                      (NDL). More than 10 million documents are available in NDL including e-books, journal articles,
+                      video lectures etc. Library LAN has become a part of the campus wise network, which has made it
+                      possible for the academic community of various departments to access information.</p>
+                    <p class="text-justify">The reading room of the library has a total seating capacity of 200 students
+                      at a time. The library has over 28,000 volumes which are updated regularly by way of adding new
+                      collections in diverse formats in the form of textbooks, reference books, reports, proceedings,
+                      abstracts & indexes, encyclopedias, data books, standards (National & International) journals,
+                      Audio Visual Resources, CDs, educational videos and thesis/reports.</p>
+                    <p class="text-justify">It has departmental libraries in all the departments, thus catering to the
+                      needs of Undergraduate, Post Graduate students and faculty.</p>
+                  </div>
+
+
+
+                </div>
+              </div>
+
+
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="d-block">
+                    <nav>
+                      <div class="nav nav-tabs" role="tablist">
+                        <a class="nav-item nav-link g-bg-primary--active g-bg-bluegray--hover g-color-white--active g-color-white--hover g-brd-primary--active g-brd-bluegray--hover g-brd-gray-light-v3 active"
+                          href="#nav-tabContent-1" data-toggle="tab" role="tab">
+                          <i class="icon-chart"></i>&nbsp; <b>Collections</b>
+                        </a>
+                        <a class="nav-item nav-link g-bg-primary--active g-bg-bluegray--hover g-color-white--active g-color-white--hover g-brd-primary--active g-brd-bluegray--hover g-brd-gray-light-v3 "
+                          href="#nav-tabContent-2" data-toggle="tab" role="tab">
+                          <i class="icon-education-196 u-line-icon-pro"></i>&nbsp; <b>Services</b>
+                        </a>
+                        <a class="nav-item nav-link g-bg-primary--active g-bg-bluegray--hover g-color-white--active g-color-white--hover g-brd-primary--active g-brd-bluegray--hover g-brd-gray-light-v3 "
+                          href="#nav-tabContent-3" data-toggle="tab" role="tab">
+                          <i class="icon-badge"></i>&nbsp; <b>Organizational Membership</b>
+                        </a>
+                        <a class="nav-item nav-link g-bg-primary--active g-bg-bluegray--hover g-color-white--active g-color-white--hover g-brd-primary--active g-brd-bluegray--hover g-brd-gray-light-v3 "
+                          href="#nav-tabContent-4" data-toggle="tab" role="tab">
+                          <i class="icon-people"></i>&nbsp; <b>Library Staff</b>
+                        </a>
+                        <a class="nav-item nav-link g-bg-primary--active g-bg-bluegray--hover g-color-white--active g-color-white--hover g-brd-primary--active g-brd-bluegray--hover g-brd-gray-light-v3 "
+                          href="#nav-tabContent-5" data-toggle="tab" role="tab">
+                          <i class="icon-education-143 u-line-icon-pro"></i>&nbsp; <b>DIET Library Membership</b>
+                        </a>
+                      </div>
+                    </nav>
+                    <div class="tab-content">
+                      <div class="tab-pane fade show active" id="nav-tabContent-1" role="tabpanel">
+                        <article class="g-pa-15">
+                          <p class="text-justify">
+                            All Collections of the library can also be accessed through web OPAC at any terminal on the
+                            campus network. The latest collection of English & Gujarati literature, self-help books,
+                            Gate exam book etc. are continuously updated in the library. The library is also connected
+                            with <b>DELNET</b> for interlibrary loan and document delivery services.
+                          </p>
+                          <p class="text-justify">The library has a well-developed book stack, reading room and digital
+                            library which makes studying a unique and a lifetime experience.</p>
+                          <div class="row text-center justify-content-center">
+                            <div class="col-6 col-md-3 g-mb-30">
+                              <article class="mask" style="
+                                background: linear-gradient( 45deg,rgba(29, 236, 197, 0.5), rgba(91, 14, 214, 0.5) 100%);">
+                                <div class="g-font-size-35 g-font-weight-600 g-mb-0 d-inline-block"><span
+                                    class="js-counter">28000</span><sup>+</sup></div>
+                                <h4 class="h6 g-font-weight-600">Books</h4>
+                              </article>
+                            </div>
+                            <div class="col-6 col-md-3 g-mb-30">
+                              <article class="mask" style="
+                                background: linear-gradient( 45deg,rgba(29, 236, 197, 0.5), rgba(91, 14, 214, 0.5) 100%);">
+                                <div class="g-font-size-35 g-font-weight-600 g-mb-0 d-inline-block"><span
+                                    class="js-counter">115</span><sup>+</sup></div>
+                                <h4 class="h6 g-font-weight-600">Magazines</h4>
+                              </article>
+                            </div>
+                            <div class="col-6 col-md-3 g-mb-30">
+                              <article class="mask" style="
+                                background: linear-gradient( 45deg,rgba(29, 236, 197, 0.5), rgba(91, 14, 214, 0.5) 100%);">
+                                <div class="g-font-size-35 g-font-weight-600 g-mb-0 d-inline-block"><span
+                                    class="js-counter">120</span><sup>+</sup></div>
+                                <h4 class="h6 g-font-weight-600">Journals<br /><small>(National + International)</small>
+                                </h4>
+                              </article>
+                            </div>
+                            <div class="col-6 col-md-3 g-mb-30">
+                              <article class="mask" style="
+                                background: linear-gradient( 45deg,rgba(29, 236, 197, 0.5), rgba(91, 14, 214, 0.5) 100%);">
+                                <div class="g-font-size-35 g-font-weight-600 g-mb-0 d-inline-block"><span
+                                    class="js-counter">900</span><sup>+</sup></div>
+                                <h4 class="h6 g-font-weight-600">Departmental Library Books</h4>
+                              </article>
+                            </div>
+                            <div class="col-6 col-md-3 g-mb-30">
+                              <article class="mask" style="
+                              background: linear-gradient( 45deg,rgba(29, 236, 197, 0.5), rgba(91, 14, 214, 0.5) 100%);">
+                                <div class="g-font-size-35 g-font-weight-600 g-mb-0 d-inline-block"><span
+                                    class="js-counter">14000</span><sup>+</sup></div>
+                                <h4 class="h6 g-font-weight-600">E-Journals</h4>
+                              </article>
+                            </div>
+                            <div class="col-6 col-md-3 g-mb-30">
+                              <article class="mask" style="
+                                background: linear-gradient( 45deg,rgba(29, 236, 197, 0.5), rgba(91, 14, 214, 0.5) 100%);">
+                                <div class="g-font-size-35 g-font-weight-600 g-mb-0 d-inline-block"><span
+                                    class="js-counter">80000</span><sup>+</sup></div>
+                                <h4 class="h6 g-font-weight-600">E-Books</h4>
+                              </article>
+                            </div>
+                            <div class="col-6 col-md-3 g-mb-30">
+                              <article class="mask" style="
+                                background: linear-gradient( 45deg,rgba(29, 236, 197, 0.5), rgba(91, 14, 214, 0.5) 100%);">
+                                <div class="g-font-size-35 g-font-weight-600 g-mb-0 d-inline-block"><span
+                                    class="js-counter">2000</span><sup>+</sup></div>
+                                <h4 class="h6 g-font-weight-600">CD / DVDs</h4>
+                              </article>
+                            </div>
+                            <div class="col-6 col-md-3 g-mb-30">
+                              <article class="mask" style="
+                                background: linear-gradient( 45deg,rgba(29, 236, 197, 0.5), rgba(91, 14, 214, 0.5) 100%);">
+                                <div class="g-font-size-35 g-font-weight-600 g-mb-0 d-inline-block"><span
+                                    class="js-counter">10000</span><sup>+</sup></div>
+                                <h4 class="h6 g-font-weight-600">Question Papers</h4>
+                              </article>
+                            </div>
+                            <div class="col-6 col-md-3 g-mb-30">
+                              <article class="mask" style="
+                                background: linear-gradient( 45deg,rgba(29, 236, 197, 0.5), rgba(91, 14, 214, 0.5) 100%);">
+                                <div class="g-font-size-35 g-font-weight-600 g-mb-0 d-inline-block"><span
+                                    class="js-counter">500</span><sup>+</sup></div> <small>GB</small>
+                                <h4 class="h6 g-font-weight-600">Video Lectures<br /><small>(Technical + Non
+                                    Technical)</small></h4>
+                              </article>
+                            </div>
+                            <div class="col-6 col-md-3 g-mb-30">
+                              <article class="mask" style="
+                                background: linear-gradient( 45deg,rgba(29, 236, 197, 0.5), rgba(91, 14, 214, 0.5) 100%);">
+                                <div class="g-font-size-35 g-font-weight-600 g-mb-0 d-inline-block"><span
+                                    class="js-counter">1200</span><sup>+</sup></div>
+                                <h4 class="h6 g-font-weight-600">Hard Bound Journals</h4>
+                              </article>
+                            </div>
+                            <div class="col-6 col-md-3 g-mb-30">
+                              <article class="mask" style="
+                                background: linear-gradient( 45deg,rgba(29, 236, 197, 0.5), rgba(91, 14, 214, 0.5) 100%);">
+                                <div class="g-font-size-35 g-font-weight-600 g-mb-0 d-inline-block"><span
+                                    class="js-counter">1900</span><sup>+</sup></div>
+                                <h4 class="h6 g-font-weight-600">Hard Bound Magazines</h4>
+                              </article>
+                            </div>
+                            <div class="col-6 col-md-3 g-mb-30">
+                              <article class="mask" style="
+                              background: linear-gradient( 45deg,rgba(29, 236, 197, 0.5), rgba(91, 14, 214, 0.5) 100%);">
+                                <div class="g-font-size-35 g-font-weight-600 g-mb-0 d-inline-block"><span
+                                    class="js-counter">1500</span><sup>+</sup></div>
+                                <h4 class="h6 g-font-weight-600">Gate Exam Related Books</h4>
+                              </article>
+                            </div>
+                            <div class="col-6 col-md-3 g-mb-30">
+                              <article class="mask" style="
+                                background: linear-gradient( 45deg,rgba(29, 236, 197, 0.5), rgba(91, 14, 214, 0.5) 100%);">
+                                <div class="g-font-size-35 g-font-weight-600 g-mb-0 d-inline-block"><span
+                                    class="js-counter">1200</span><sup>+</sup></div>
+                                <h4 class="h6 g-font-weight-600">Competitive Exam Related Books</h4>
+                              </article>
+                            </div>
+                            <div class="col-6 col-md-3 g-mb-30">
+                              <article class="mask" style="
+                              background: linear-gradient( 45deg,rgba(29, 236, 197, 0.5), rgba(91, 14, 214, 0.5) 100%);">
+                                <div class="g-font-size-35 g-font-weight-600 g-mb-0 d-inline-block"><span
+                                    class="js-counter">3000</span><sup>+</sup></div>
+                                <h4 class="h6 g-font-weight-600">Gujarati Literature<br><small>(Fiction + Non Fiction)
+                                    Books</small></h4>
+                              </article>
+                            </div>
+                            <div class="col-6 col-md-3 g-mb-30">
+                              <article class="mask" style="
+                                background: linear-gradient( 45deg,rgba(29, 236, 197, 0.5), rgba(91, 14, 214, 0.5) 100%);">
+                                <div class="g-font-size-35 g-font-weight-600 g-mb-0 d-inline-block"><span
+                                    class="js-counter">1500</span><sup>+</sup></div>
+                                <h4 class="h6 g-font-weight-600">English Literature<br><small>(Fiction + Non Fiction)
+                                    Books</small></h4>
+                              </article>
+                            </div>
+                          </div>
+                          <div class="row justify-content-center">
+                            <div class="col-6 col-md-3 col-sm-5 col-xs-12">
+                              <img src="assets/img/2.png" class="img-fluid">
+                            </div>
+                            <div class="col-md-5 col-sm-7 col-xs-12 align-self-center text-center">
+                              <h1 class="h4 g-font-weight-100 g-pa-10 ">
+                                <i>Started New <b>Kindle</b> Service <br />for e-Readers Lovers</i>
+                              </h1>
+                            </div>
+                          </div>
+                        </article>
+                      </div>
+                      <div class="tab-pane fade " id="nav-tabContent-2" role="tabpanel">
+                        <article class="g-pa-15">
+                          <ol>
+                            <li class="g-pl-6">Circulation Services</li>
+                            <li class="g-pl-6">Photocopy Service</li>
+                            <li class="g-pl-6">Document Scan Service</li>
+                            <li class="g-pl-6">Reference service / Referral Service</li>
+                            <li class="g-pl-6">Current Awareness Service</li>
+                            <li class="g-pl-6">Document Delivery Service</li>
+                            <li class="g-pl-6">Resource Sharing </li>
+                            <li class="g-pl-6">Magazine/Journal Content Service: Content Pages provided in hard copy and
+                              soft copy by e-mail to registered users.</li>
+                            <li class="g-pl-6">Amazon Kindle E-reader: Kindle device is issue for One Week to all
+                              Students and Staff of the college.</li>
+                            <li class="g-pl-6">Video Lecture Collection: Video lectures categories are…. TED talks,
+                              Let’s Talk English speaking, Interview & Career, Motivational Speakers, Time Management,
+                              Health & Yoga, BBC, National Geography, Scientific Movie and many more.(Updated regularly)
+                            </li>
+                            <li class="g-pl-6">Book-Talk Activity (For Non-technical Book): Once in a month library
+                              organizes Book-Talk for enhancement of reading among students and staff.</li>
+                            <li class="g-pl-6">Book-Review Publication: Every month Book-Review of non-technical book is
+                              published in Our Diet E-Newsletter.</li>
+                            <li class="g-pl-6">Access and copy of CD/DVD</li>
+                            <li class="g-pl-6">Online Access to E-resources</li>
+                            <li class="g-pl-6">Newspapers Clipping Service</li>
+                            <li class="g-pl-6">Back Dated Magazines Circulation</li>
+                            <li class="g-pl-6">New Arrivals Display</li>
+                            <li class="g-pl-6">Reading Room -Discussion room-Reference Section… Facility for Students &
+                              Staff.</li>
+                            <li class="g-pl-6">Library service available on Facebook and by e-mail….free for
+                              all.<br />(It Includes Important G.K. News, Current Affairs materials, Technical News,
+                              list of important Websites, etc.)</li>
+                            <li class="g-pl-6">Reservation Facility</li>
+                            <li class="g-pl-6">Overnight issue of Reference books</li>
+                            <li class="g-pl-6">Library Orientation Program for New Students: Library orientation makes
+                              library users aware of the library and the services it offers. Library orientation
+                              educates users regarding general use of the library.</li>
+                            <li class="g-pl-6">Latest News/Articles of Competitive Exam Related magazines send regularly
+                              every month to Library Users by e-mail.</li>
+                          </ol>
+                        </article>
+                      </div>
+                      <div class="tab-pane fade " id="nav-tabContent-3" role="tabpanel">
+                        <article class="g-pa-15">
+                          <div class="row" style="padding: 10px;">
+                            <div class="col-md-3 col-sm-3 col-xs-7 align-self-center">
+                              <img src="/U01/Page/59---11-06-2021-10-28-01.png" class="img-responsive" width="100%"
+                                style="margin-top: 0px; margin-bottom: 0px; padding: 5px;">
+                            </div>
+                            <div class="col-md-9 col-sm-9 col-12" style="text-align: left;">
+                              <h3 class="h5 g-font-weight-700">British Counsil Library - Ahmedabad</h3>
+                              <p class="text-justify g-mb-0">
+                                Darshan University is an institutional member of the British Council Library -
+                                Ahmedabad. The library has over 20,000 books, DVDs, magazines and newspapers. You can
+                                browse through its full collection online or you can visit the library from Tuesday to
+                                Sunday.
+                              </p>
+                            </div>
+                          </div>
+                          <div
+                            class="u-divider u-divider-center u-divider-linear-gradient u-divider-linear-gradient--gray-light-v3 g-my-5">
+                          </div>
+                          <div class="row" style="padding: 10px;">
+                            <div class="col-md-3 col-sm-3 col-xs-7 align-self-center">
+                              <img src="/U01/Page/59---11-06-2021-10-28-06.jpg" class="img-responsive" width="100%"
+                                style="margin-top: 0px; margin-bottom: 0px; padding: 5px;">
+                            </div>
+                            <div class="col-md-9 col-sm-9 col-12" style="text-align: left;">
+                              <h3 class="h5 g-font-weight-700">DELNET</h3>
+                              <p class="text-justify g-mb-0">
+                                Darshan University is also a member of DELNET. DELNET has been established in 1988 by
+                                the Government of India with the prime objective of promoting resource sharing among the
+                                libraries through the development of a network of libraries. It aims to collect, store,
+                                and disseminate information besides offering computerised services to users, coordinate
+                                efforts for suitable collection development and also reduce unnecessary duplication
+                                wherever possible.
+                              </p>
+                            </div>
+                          </div>
+                        </article>
+                      </div>
+                      <div class="tab-pane fade " id="nav-tabContent-4" role="tabpanel">
+                        <article class="g-pa-15">
+                          <div class="row justify-content-center">
+                            <div class="col-8 col-md-6 col-lg-6 col-xl-5 g-px-30--xl g-mb-15">
+                              <article
+                                class="g-brd-around g-brd-gray-light-v3 g-rounded-5 u-shadow-v37--hover g-pa-15 text-center g-height-100x">
+                                <img src="/U01/Page/59---11-06-2021-10-28-35.jpg"
+                                  class="img-fluid g-rounded-5 g-brd-around g-brd-gray-light-v3 g-mb-15 g-mt-5 w-50">
+                                <h4 class="h5 g-color-main g-mb-5 g-font-weight-600">
+                                  <a href="/faculty-profile/Dr-Alka-Vastabhai-Gohel" title="Dr. Alka Gohel"
+                                    target="_self" style="color:#555">Dr. Alka Gohel</a>
+                                </h4>
+                                <span class="d-block g-font-size-12 g-color-primary g-font-weight-600">Librarian</span>
+                                <hr class="g-my-10 g-mr-15 g-brd-gray-light-v3 g-brd-style-dashed">
+                                <ul class="list-unstyled g-color-gray-dark-v3 g-mb-0 text-left d-inline-block">
+                                  <li class="g-mb-5">
+                                    <i class="d-inline-block g-width-20 fa fa-envelope-o"></i>:&nbsp;&nbsp; <a
+                                      href="mailto:alka.gohel@darshan.ac.in"
+                                      class="g-color-main">alka.gohel@darshan.ac.in</a>
+                                  </li>
+                                  <li class="g-mb-5">
+                                    <i class="d-inline-block g-width-20 icon-call-in"></i>:&nbsp;&nbsp; <a
+                                      href="tel:09725380777" class="g-color-main">+91 - 97253 80777</a>
+                                  </li>
+                                </ul>
+                              </article>
+                            </div>
+                            <div class="col-8 col-md-6 col-lg-6 col-xl-5 g-px-30--xl g-mb-15">
+                              <article
+                                class="g-brd-around g-brd-gray-light-v3 g-rounded-5 u-shadow-v37--hover g-pa-15 text-center g-height-100x">
+                                <img src="/U01/Page/59---11-06-2021-10-28-42.jpg"
+                                  class="img-fluid g-rounded-5 g-brd-around g-brd-gray-light-v3 g-mb-15 g-mt-5 w-50">
+                                <h4 class="h5 g-color-main g-mb-5 g-font-weight-600">
+                                  <a href="/faculty-profile/Dr-Nimesh-Kantilal-Jotangia" title="Dr. Nimesh Jotangia"
+                                    target="_self" style="color:#555">Dr. Nimesh Jotangia</a>
+                                </h4>
+                                <span class="d-block g-font-size-12 g-color-primary g-font-weight-600">Librarian</span>
+                                <hr class="g-my-10 g-mr-15 g-brd-gray-light-v3 g-brd-style-dashed">
+                                <ul class="list-unstyled g-color-gray-dark-v3 g-mb-0 text-left d-inline-block">
+                                  <li class="g-mb-5">
+                                    <i class="d-inline-block g-width-20 fa fa-envelope-o"></i>:&nbsp;&nbsp; <a
+                                      href="mailto:nimesh.jotangia@darshan.ac.in"
+                                      class="g-color-main">nimesh.jotangia@darshan.ac.in</a>
+                                  </li>
+                                  <li class="g-mb-5">
+                                    <i class="d-inline-block g-width-20 icon-call-in"></i>:&nbsp;&nbsp; <a
+                                      href="tel:09824731510" class="g-color-main">+91 - 98247 31510</a>
+                                  </li>
+                                </ul>
+                              </article>
+                            </div>
+                          </div>
+                        </article>
+                      </div>
+                      <div class="tab-pane fade " id="nav-tabContent-5" role="tabpanel">
+                        <article class="g-pa-15">
+                          <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                              <h4 class="g-font-weight-700 g-font-size-15"><i class="fa fa-bookmark"></i>&nbsp; DIET
+                                Library Membership is available for</h4>
+                              <ol>
+                                <li>
+                                  <span class="g-font-weight-600">Alumni Members</span>
+                                  <ul>
+                                    <li>All Alumni of Darshan University, Rajkot can become members of the Central
+                                      Library on request.</li>
+                                  </ul>
+                                </li>
+                                <li>
+                                  <span class="g-font-weight-600">Individual Membership for All</span>
+                                  <ul>
+                                    <li>Anyone can become a member of our institutional Library on a request submitted
+                                      in the prescribed application form along with the latest passport size photograph.
+                                      Individual Members will be issued a Membership Card which is mandatory for a
+                                      library visit.</li>
+                                  </ul>
+                                </li>
+                              </ol>
+
+                              <h4 class="g-font-weight-700 g-font-size-15"><i class="fa fa-bookmark"></i>&nbsp; Services
+                                Offered</h4>
+                              <div class="g-pl-20">
+                                <p class="g-mb-0">Alumni and individual members can use the following services any time
+                                  during library hours:</p>
+                                <ul class="g-mb-0">
+                                  <li>Reference and consultation</li>
+                                  <li>Borrowing of 2 books for 28 days, 1 magazine (from back issues) for 14 days and 1
+                                    bound volume of magazines for 14 days.</li>
+                                  <li>Non-book materials (CD/DVD) access-copy in library</li>
+                                  <li>Internet access to electronic resources</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </article>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+    </div>
+
+    <!-- Footer -->
+
+
+
+  </main><!-- End #main -->
+
+  
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.min.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

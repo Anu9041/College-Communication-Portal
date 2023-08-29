@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>College Student Communication</title>
+    <link href="assets/img/logo2.jpg" rel="icon">
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet" />
+    <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet" />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!-- =======================================================
+  * Template Name: NiceAdmin - v2.4.1
+  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  </head>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+      <div class="d-flex align-items-center justify-content-between">
+        <a href="index.php" class="logo d-flex align-items-center">
+          <span class="d-none d-lg-block">Student portal</span>
+        </a>
+        <i class="bi bi-list toggle-sidebar-btn"></i>
+      </div>
+      <!-- End Logo -->
+
+      <div class="search-bar">
+        <form
+          class="search-form d-flex align-items-center"
+          method="POST"
+          action="#"
+        >
+          <input
+            type="text"
+            name="query"
+            placeholder="Search"
+            title="Enter search keyword"
+          />
+          <button type="submit" title="Search">
+            <i class="bi bi-search"></i>
+          </button>
+        </form>
+      </div>
+      <!-- End Search Bar -->
+
+      <nav class="header-nav ms-auto">
+        <ul class="d-flex align-items-center">
+          <li class="nav-item d-block d-lg-none">
+            <a class="nav-link nav-icon search-bar-toggle" href="#">
+              <i class="bi bi-search"></i>
+            </a>
+          </li>
+          <!-- End Search Icon-->
+
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+              <i class="bi bi-bell"></i>
+              <span class="badge bg-primary badge-number">4</span> </a
+            ><!-- End Notification Icon -->
+
+            <ul
+              class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications"
+            >
+              <li class="dropdown-header">
+                You have 4 new notifications
+                <a href="#"
+                  ><span class="badge rounded-pill bg-primary p-2 ms-2"
+                    >View all</span
+                  ></a
+                >
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+
+              <li class="notification-item">
+                <i class="bi bi-exclamation-circle text-warning"></i>
+                <div>
+                  <h4>Lorem Ipsum</h4>
+                  <p>Quae dolorem earum veritatis oditseno</p>
+                  <p>30 min. ago</p>
+                </div>
+              </li>
+
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+
+              <li class="notification-item">
+                <i class="bi bi-x-circle text-danger"></i>
+                <div>
+                  <h4>Atque rerum nesciunt</h4>
+                  <p>Quae dolorem earum veritatis oditseno</p>
+                  <p>1 hr. ago</p>
+                </div>
+              </li>
+
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+
+              <li class="notification-item">
+                <i class="bi bi-check-circle text-success"></i>
+                <div>
+                  <h4>Sit rerum fuga</h4>
+                  <p>Quae dolorem earum veritatis oditseno</p>
+                  <p>2 hrs. ago</p>
+                </div>
+              </li>
+
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+
+              <li class="notification-item">
+                <i class="bi bi-info-circle text-primary"></i>
+                <div>
+                  <h4>Dicta reprehenderit</h4>
+                  <p>Quae dolorem earum veritatis oditseno</p>
+                  <p>4 hrs. ago</p>
+                </div>
+              </li>
+
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li class="dropdown-footer">
+                <a href="#">Show all notifications</a>
+              </li>
+            </ul>
+            <!-- End Notification Dropdown Items -->
+          </li>
+          <!-- End Notification Nav -->
+
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+              <i class="bi bi-chat-left-text"></i>
+              <span class="badge bg-success badge-number">3</span> </a
+            ><!-- End Messages Icon -->
+
+            <ul
+              class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages"
+            >
+              <li class="dropdown-header">
+                You have 3 new messages
+                <a href="#"
+                  ><span class="badge rounded-pill bg-primary p-2 ms-2"
+                    >View all</span
+                  ></a
+                >
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+
+              <li class="message-item">
+                <a href="#">
+                  <img
+                    src="assets/img/messages-1.jpg"
+                    alt=""
+                    class="rounded-circle"
+                  />
+                  <div>
+                    <h4>Maria Hudson</h4>
+                    <p>
+                      Velit asperiores et ducimus soluta repudiandae labore
+                      officia est ut...
+                    </p>
+                    <p>4 hrs. ago</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+
+              <li class="message-item">
+                <a href="#">
+                  <img
+                    src="assets/img/messages-2.jpg"
+                    alt=""
+                    class="rounded-circle"
+                  />
+                  <div>
+                    <h4>Anna Nelson</h4>
+                    <p>
+                      Velit asperiores et ducimus soluta repudiandae labore
+                      officia est ut...
+                    </p>
+                    <p>6 hrs. ago</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+
+              <li class="message-item">
+                <a href="#">
+                  <img
+                    src="assets/img/messages-3.jpg"
+                    alt=""
+                    class="rounded-circle"
+                  />
+                  <div>
+                    <h4>David Muldon</h4>
+                    <p>
+                      Velit asperiores et ducimus soluta repudiandae labore
+                      officia est ut...
+                    </p>
+                    <p>8 hrs. ago</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+
+              <li class="dropdown-footer">
+                <a href="#">Show all messages</a>
+              </li>
+            </ul>
+            <!-- End Messages Dropdown Items -->
+          </li>
+          <!-- End Messages Nav -->
+
+          <li class="nav-item dropdown pe-3">
+            <a
+              class="nav-link nav-profile d-flex align-items-center pe-0"
+              href="#"
+              data-bs-toggle="dropdown"
+            >
+              <img
+                src="assets/img/messages-3.jpg"
+                alt="Profile"
+                class="rounded-circle"
+              />
+              <span class="d-none d-md-block dropdown-toggle ps-2"
+                >Kevin</span
+              > </a
+            ><!-- End Profile Iamge Icon -->
+
+            <ul
+              class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile"
+            >
+              <li class="dropdown-header">
+                <h6>Kevin</h6>
+                <span>Web Designer</span>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+
+              <li>
+                <a
+                  class="dropdown-item d-flex align-items-center"
+                  href="users-profile.html"
+                >
+                  <i class="bi bi-person"></i>
+                  <span>My Profile</span>
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+
+              <li>
+                <a
+                  class="dropdown-item d-flex align-items-center"
+                  href="users-profile.html"
+                >
+                  <i class="bi bi-gear"></i>
+                  <span>Account Settings</span>
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+
+              <li>
+                <a
+                  class="dropdown-item d-flex align-items-center"
+                  href="pages-faq.html"
+                >
+                  <i class="bi bi-question-circle"></i>
+                  <span>Need Help?</span>
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+
+              <li>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <i class="bi bi-box-arrow-right"></i>
+                  <span>Sign Out</span>
+                </a>
+              </li>
+            </ul>
+            <!-- End Profile Dropdown Items -->
+          </li>
+          <!-- End Profile Nav -->
+        </ul>
+      </nav>
+      <!-- End Icons Navigation -->
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Sidebar ======= -->
+    <aside id="sidebar" class="sidebar">
+      <ul class="sidebar-nav" id="sidebar-nav">
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="index.php">
+            <i class="bi bi-grid"></i>
+            <span>Dashboard</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="./chatroom/login.php">
+            <i class="bi bi-person-circle"></i>
+            <span>Students Communities</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="faculty info.html">
+            <i class="bi bi-people-fill"></i>
+            <span>Faculty information</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="scholarships.html">
+            <i class="bi bi-book"></i>
+            <span>Scholarships</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            data-bs-target="#charts-nav"
+            data-bs-toggle="collapse"
+            href="#"
+          >
+            <i class="bi bi-bar-chart"></i><span>Campus</span>
+            <i class="bi bi-chevron-down ms-auto"></i>
+          </a>
+          <ul
+            id="charts-nav"
+            class="nav-content collapse show"
+            data-bs-parent="#sidebar-nav"
+          >
+            <li>
+              <a href="life at campus.html">
+                <i class="bi bi-circle"></i><span>Life at Campus</span>
+              </a>
+            </li>
+            <li>
+              <a href="infrastructure.html">
+                <i class="bi bi-circle"></i><span>Infrastructure</span>
+              </a>
+            </li>
+            <li>
+              <a href="library service.html">
+                <i class="bi bi-circle"></i><span>Library Service</span>
+              </a>
+            </li>
+            <li>
+              <a href="student activity center.html">
+                <i class="bi bi-circle"></i><span>Student Activity Center</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a
+            class="nav-link collapsed"
+            data-bs-target="#forms-nav"
+            data-bs-toggle="collapse"
+            href="#"
+          >
+            <i class="bi bi-journal-text"></i><span>Student Corner</span
+            ><i class="bi bi-chevron-down ms-auto"></i>
+          </a>
+          <ul
+            id="forms-nav"
+            class="nav-content collapse"
+            data-bs-parent="#sidebar-nav"
+          >
+            <li>
+              <a href="circulars.html">
+                <i class="bi bi-circle"></i><span>Circulars</span>
+              </a>
+            </li>
+            <li>
+              <a href="exam section.html">
+                <i class="bi bi-circle"></i><span>Exam Section</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="users-profile.html">
+            <i class="bi bi-person"></i>
+            <span>Profile</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="pages-faq.html">
+            <i class="bi bi-question-circle"></i>
+            <span>F.A.Q</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="pages-contact.html">
+            <i class="bi bi-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </li>
+      </ul>
+    </aside>
+    <!-- End Sidebar-->
+
+    <main id="main" class="main">
+      <div class="pagetitle">
+        <h1>Scholarships</h1>
+        <nav>
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+            <li class="breadcrumb-item">Dashboard</li>
+          </ol>
+        </nav>
+      </div>
+       <div
+        style="
+          width: 100%;
+          padding-left: 0px;
+          margin-bottom: 15px;
+          margin-top: 15px;
+          position: relative;
+          height: 2px;
+          background: -webkit-linear-gradient(
+            left,
+            rgba(77, 74, 154, 5.18) 0%,
+            rgba(77, 74, 154, 0.63) 35%,
+            rgba(77, 74, 154, 0.05) 70%,
+            rgba(0, 0, 0, 0) 100%
+          );
+        "
+      ></div>
+
+      <!-- <section
+        style="
+          background-image: url(/Content/media/bg/bg_1.jpg);
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 80px;
+        "
+      ></section> -->
+      <!-- <div class="row">
+        <div class="col-md-12">
+            <div class="u-heading-v3-1 du"> -->
+                <h4 class="u-heading-v3__title du">
+                    Government Scholarships
+                </h4>
+            </div>
+            <h4 class="g-font-weight-700 h6">
+                [1]&nbsp;&nbsp; <a href="https://mysy.guj.nic.in/" target="_blank" title="Mukhyamantri Yuva Swalamban Yojana" class="g-color-main">MYSY (Mukhyamantri Yuva Swalamban Yojana)</a>&nbsp;<a href="https://mysy.guj.nic.in/" title="MYSY | Mukhyamantri Yuva Swalamban Yojana" target="_blank"></a>
+            </h4>
+            <ul class="g-list-style-square g-mb-15 g-ml-10">
+                <li><span class="g-font-weight-600">Eligibility: </span>Student must have secured 80 or more Percentile in 10<sup>th</sup> / 12<sup>th</sup> exam and family income must be less than Rs. 6 lakh/annum.</li>
+                <li>
+                    <span class="g-font-weight-600">Amount of Scholarship:</span>
+                    <ul class="g-list-style-square g-mb-15">
+                        <li>
+                            <span class="g-font-weight-600">For Degree Engineering:</span>
+                            Rs. 50,000/- or 50% of tuition fees whichever is less.
+                        </li>
+                        <li>
+                            <span class="g-font-weight-600">For Diploma Engineering:</span>
+                            Rs. 25,000/- or 50% of tuition fees whichever is less.
+                        </li>
+                        <li>
+                            <span class="g-font-weight-600">For B.Com./BBA/BCA/B.Sc.:</span>
+                            Rs. 10,000/- or 50% of tuition fees whichever is less.
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h4 class="g-font-weight-700 h6">
+                [2]&nbsp;&nbsp; <a href="https://digitalgujarat.gov.in/" target="_blank" title="Scholarships for Scheduled Caste Candidates" class="g-color-main">Scholarships for SC/ST Students</a>&nbsp;<a  href="https://digitalgujarat.gov.in/" title="Scholarships for Scheduled Caste Candidates" target="_blank"><i class="fa fa-share"></i></a>
+            </h4>
+            <ul class="g-list-style-square g-mb-15 g-ml-10">
+                <li><span class="g-font-weight-600">Eligibility: </span>Student must belong to SC or ST category and family income must be less than Rs. 2,50,000/annum.</li>
+                <li><span class="g-font-weight-600">Amount of Scholarship:</span>  Approximately 100% of tuition fees as per Government norms.</li>
+            </ul>
+
+            <h4 class="g-font-weight-700 h6">
+                [3]&nbsp;&nbsp; <a href="https://digitalgujarat.gov.in/" target="_blank" title="Post-Metric Scholarship" class="g-color-main">Post-Metric Scholarship</a>&nbsp;<a href="https://digitalgujarat.gov.in/" title="Post-Metric Scholarship" target="_blank"><i class="fa fa-share"></i></a>
+            </h4>
+            <ul class="g-list-style-square g-mb-15 g-ml-10">
+                <li><span class="g-font-weight-600">Eligibility: </span>Student must belong to SEBC/NT/DNT category and family income must be less than Rs. 2,00,000/annum.</li>
+                <li><span class="g-font-weight-600">Amount of Scholarship:</span>  As per Government norms up to Rs. 50,000/-.</li>
+            </ul>
+
+            <h4 class="g-font-weight-700 h6">
+                [4]&nbsp;&nbsp; Tuition Fee Waiver Scheme (TFWS)
+            </h4>
+            <ul class="g-list-style-square g-mb-0 g-ml-10">
+                <li>Under the TFW scheme, students do not have to pay the tuition fee (Rs. 60,000 to Rs. 1,00,000 approx.) in SFI Institutes.</li>
+                <li>5% of total seats shall be filled by TFW scheme, e.g. 60 seats than 3 seats shall be filled by TFWS.</li>
+                <li>Students whose parent's income is less than Rs. 8 lakh/annum are eligible for TFWS.</li>
+                <li>Admission is strictly on merit numbers through the admission committee.</li>
+                <li>TFW scheme shall be applicable for the complete duration of the course (4 Years).</li>
+                <li>To get the benefits of the TFW Scheme, the candidate has to submit the income certificate issued after 31st March from either 'Mamlatdar' or ''Taluka Development Officer (TDO)' or 'Collector (Jan Seva Kendra)' at the time of application form filling (registration for admission).</li>
+                <li>No other document shall be considered valid (e.g. Income tax return, Certificate issued by 'Sarpanch', etc.).</li>
+            </ul>
+        </div>
+    </div>
+       
+    </main>
+    <!-- End #main -->
+
+    <!-- End Footer -->
+
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/chart.js/chart.min.js"></script>
+    <script src="assets/vendor/echarts/echarts.min.js"></script>
+    <script src="assets/vendor/quill/quill.min.js"></script>
+    <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+    <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
